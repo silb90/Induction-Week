@@ -1,0 +1,155 @@
+body {
+    background: url('abstract.png');
+    background-color: deeppink;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: monospace;
+    color: ghostwhite;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.textbox {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.nav {
+	width: 100%;
+    position: fixed;
+    margin: 0 auto;
+}
+
+.nav > ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.nav > ul > li {
+    float: left;
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.nav > ul > li > a:hover {
+    background-color: blue;
+}
+
+.nav > ul > li > ul > li {
+    text-decoration: none;
+    display: none;
+    height: 40px;
+}
+
+.nav > ul > li:hover > ul > li {
+    display: block;
+}
+
+.homepage {
+	padding-top: 10%;
+}
+
+.homepage img {
+	border-radius: 50%;
+	width: 75%;
+	display: block;
+	margin: 0 auto;
+	border: 0.1em solid white;
+}
+
+.content {
+    padding: 50px;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: auto;
+}
+
+.solutions{
+    text-decoration: none;
+    float: left;
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+#intact-logo {
+	font-family: raleway, serif;
+	text-align: left;
+	font-size: 5em;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#intact-logo-container {
+	position: relative;
+	top: -35em;
+	margin: 0 auto;
+}
+
+.homepage p{
+        margin: 0 auto;
+        width: 60%;
+		color: #ff7b00;
+		padding-top: 1em;
+		padding-left: 2em;
+		font-size: 1.3em;
+		font-weight: bold;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.homepage a:link, .homepage a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.homepage a:hover, .homepage a:active {
+	color: red;
+	text-decoration: none;
+}
+
+.wrapper > p {
+	
+}
+
+#general-page-container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+#general-page-header {
+	padding-top: 10%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.general-page-subheader {
+	padding-top: 10%;
+	margin: 0 auto;
+}
+
+#produced-by {
+	
+}
